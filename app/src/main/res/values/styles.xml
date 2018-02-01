@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/button_color</item>
+    </style>
+
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@color/button_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name ="EditTextStyle">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:inputType">numberSigned</item>
+    </style>
+
+    <style name ="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+
+    <style name ="InputLinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name ="InputTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+
+
+</resources>

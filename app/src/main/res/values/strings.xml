@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quadratic Equation</string>
+
+    <string name="know_quadratic">A quadratic equation is any equation in the form\nax2 + bx + c = 0 where a ≠ 0.
+                    \nIt accepts three inputs for a, b, and c where a != 0\n\n
+                    The term Discriminant d = b*b - 4*a*c tells the nature of the roots\n\n
+                    * if d is greater than 0, We have Real roots i.e. Two roots\n
+                    * if d is equal to 0, We have Equal Roots i.e. One root\n
+                    * if d less than 0, We have Complex roots i.e. No root.\n\n
+                    Hints:\n**This app can only accepts Postive and Negative Integer.\n
+                            **It cannot accept null value.\n
+                            **It cannot accept 0 as value of a.
+    </string>
+    <string name="instruction">You are required to enter three Numbers\n\t\tfor a, b and c\n
+        Enter one value here and click Next"</string>
+
+
+</resources>
